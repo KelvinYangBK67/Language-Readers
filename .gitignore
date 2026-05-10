@@ -20,8 +20,7 @@
 # Generated vocabulary snippets
 *.voc
 *.voc{*
-**/generated_vocab/*
-!**/generated_vocab/.gitkeep
+**/generated_vocab/
 
 # Vocabulary source data
 **/vocab/
