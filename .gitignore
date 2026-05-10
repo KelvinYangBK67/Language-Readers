@@ -1,0 +1,38 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Generated vocabulary snippets
+*.voc
+*.voc{*
+
+# Vocabulary source data
+**/vocab/
+
+# Local PDFs generated inside reader source directories
+*_reader/*.pdf
+
+# Keep collected release PDFs trackable
+!readers/*.pdf
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.tmp
