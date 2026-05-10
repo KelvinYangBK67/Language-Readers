@@ -7,6 +7,7 @@ This repository contains multilingual graded readers and vocabulary-builder book
 ## 内容 / Contents
 
 - `*_reader/`: 各语言读本的 LaTeX 源文件、词表数据与本地构建文件。
+- `*_reader/generated_vocab/`: 编译时生成的词表片段输出目录。
 - `reader_preamble.tex`: 各读本共享的 LaTeX 宏与排版设置。
 - `readers/`: 汇总后的 PDF 成品。
 - `copy_readers.bat`: 将各 `*_reader/main.pdf` 复制到 `readers/` 的 Windows 脚本。
