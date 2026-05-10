@@ -1,29 +1,29 @@
 # Readers
 
-多语言分级阅读材料与词汇读本项目，包含英语、德语、印地语、日语、拉丁语、梵语、西夏语、藏语等 reader 的 LaTeX 源文件、词表数据和可分发 PDF。
+多語言分級閱讀材料與詞彙讀本專案，包含英語、德語、印地語、日語、拉丁語、梵語、西夏語、藏語等 reader 的 LaTeX 原始檔、詞表資料和可分發 PDF。
 
 This repository contains multilingual graded readers and vocabulary-builder booklets for English, German, Hindi, Japanese, Latin, Sanskrit, Tangut, Tibetan, and related language-study materials. It includes LaTeX sources, vocabulary data, and distributable PDFs.
 
-## 内容 / Contents
+## 內容 / Contents
 
-- `*_reader/`: 各语言读本的 LaTeX 源文件、词表数据与本地构建文件。
-- `reader_preamble.tex`: 各读本共享的 LaTeX 宏与排版设置。
-- `readers/`: 汇总后的 PDF 成品。
-- `copy_readers.bat`: 将各 `*_reader/main.pdf` 复制到 `readers/` 的 Windows 脚本。
+- `*_reader/`: 各語言讀本的 LaTeX 原始檔、詞表資料與本地建置檔案。
+- `reader_preamble.tex`: 各讀本共用的 LaTeX 巨集與排版設定。
+- `readers/`: 彙總後的 PDF 成品。
+- `copy_readers.bat`: 將各 `*_reader/main.pdf` 複製到 `readers/` 的 Windows 腳本。
 
-## 声明 / Notes
+## 聲明 / Notes
 
-除明确另有说明的文本外，本项目中的文章均由 ChatGPT 撰写。
+除明確另有說明的文本外，本專案中的文章均由 ChatGPT 撰寫。
 
 Unless explicitly noted otherwise, all reading passages in this project were written by ChatGPT.
 
-本项目的 LaTeX 文件使用 IMPE 模板撰写。
+本專案的 LaTeX 檔案使用 IMPE 模板撰寫。
 
 The LaTeX files in this project are written with the IMPE template.
 
-## 构建 / Build
+## 建置 / Build
 
-在某个读本目录中使用 XeLaTeX 构建：
+在某個讀本目錄中使用 XeLaTeX 建置：
 
 ```powershell
 cd english_reader
@@ -37,7 +37,7 @@ cd english_reader
 xelatex main.tex
 ```
 
-构建完成后，可在仓库根目录运行：
+建置完成後，可在倉庫根目錄執行：
 
 ```powershell
 .\copy_readers.bat
@@ -45,8 +45,8 @@ xelatex main.tex
 
 After building the individual readers, run `copy_readers.bat` from the repository root to collect PDFs into `readers/`.
 
-## 许可 / License
+## 授權 / License
 
-本项目采用 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License（CC BY-NC-SA 4.0）授权。详见 [LICENSE](LICENSE)。
+本專案採用 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License（CC BY-NC-SA 4.0）授權。詳見 [LICENSE](LICENSE)。
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). See [LICENSE](LICENSE).
