@@ -62,7 +62,7 @@
 \AddToShipoutPictureBG{\readerseparatorline}
 
 \newcommand{\currentvocabfile}{\jobname-vocab-\thereadersection.voc}
-\newcommand{\beginvocabwrite}{\immediate\openout\vocabfile=\currentvocabfile}
+\newcommand{\beginvocabwrite}{\immediate\openout\vocabfile=\currentvocabfile\relax}
 \newcommand{\finishvocabwrite}{\immediate\closeout\vocabfile}
 \newcommand{\vocabitem}[2]{\ReaderVocabItem{#1}{#2}}
 \newcommand{\printvocablist}{%
